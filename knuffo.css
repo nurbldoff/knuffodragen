@@ -1,0 +1,23 @@
+#header {
+    width: 100%;
+    background: #e0e0e0;
+}
+
+#body {
+    padding: 1% 5% 1% 5%;
+}
+
+pre {
+    background: #fff0f0;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.linksmall {
+    font-size: small;
+}
+
+.version {
+    font-size: small;
+    color: #808080;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="sv">
+<head>
+<link rel="stylesheet" type="text/css" href="wiki/KnuffoCss" />
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">
+MathJax.Hub.Config({
+  showProcessingMessages: false,
+  extensions: ['tex2jax.js'],
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    processEscapes: true
+  },
+  NativeMML: {
+    scale: 50
+  }
+});
+</script>
+<title>wiki/#{@name}</title>
+</head>
+<body>
+<table id="header">
+<tr><td>
+<a href="snabb.cgi?show=#{@name}"><font size="+2">#{@name}</font></a>
+</td>
+<td align="right" valign="bottom" nowrap>
+
+<a class="linksmall" href="snabb.cgi?show=KnuffoDragen">KnuffoDragen</a>
+<a class="linksmall" href="snabb.cgi?show=SökSidan">SökSidan</a>
+<a class="linksmall" href="snabb.cgi?show=SenasteÄndringar">SenasteÄndringar</a>
+
+<br>
+<a href="snabb.cgi?edit=#{@name}">Ändra</a>
+<a href="snabb.cgi?show=#{@name}+#{prev}">Återkalla</a>
+|
+<a href="snabb.cgi?history=#{@name}">Historia</a>
+<a href="snabb.cgi?fsearch=#{@name}">Referenser</a>
+</td>
+</tr>
+</table>
+<table id="body">
+<tr>
+<td valign="center" align="left">
+
+

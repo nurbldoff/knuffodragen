@@ -1,0 +1,61 @@
+<html>
+<head></head>
+<body bgcolor="white" text="black">
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+<tr> 
+<td colspan="2">
+Du skriver: <font size="+2">#{@name}</font>
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+<form action="snabb.cgi" method="post">
+<textarea wrap="virtual" name="text" rows="22" cols="90">
+#{@text}
+</textarea><p>
+<input type="checkbox" name="small" value="true"> Liten ändring (visas inte på SenasteÄndringar)
+<input type="submit" value="save">
+<input type="hidden" name="name" value="#{@name}"> 
+<input type="hidden" name="time" value="#{@time}"> 
+</form>
+
+</td>
+<td width="50%" valign="top">
+<font size=+1>Lathund i stil</font>
+
+<p>
+<tt>
+''kursiv text''<br>
+__understruket__<br>
+##fet stil##<br>
+==maskinskrivet==<br>
+<p>
+index,,x,,<br>
+upphöjt^^x^^<br>
+<p>
+&gt;kommentar<br>
+&gt;&gt;nästa nivå<br>
+<p>
+&nbsp;indragen text<br>
+<p>
+*element i lista<br>
+&nbsp;forts...<br>
+&nbsp;*lista i listan<br>
+<p>
+0numrerad lista<br>
+<p>
+?term<br>
+!definition<br>
+<p>
+\\otolkad text\\<br>
+</tt>
+<p>
+
+(<a href="?show=FormatteringsRegler">FormatteringsRegler</a>)
+
+</td>
+</tr>
+</table>
+</body>
+</html>

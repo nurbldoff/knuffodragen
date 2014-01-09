@@ -1,0 +1,36 @@
+<html>
+<head></head>
+<body bgcolor="white" text="black">
+<table align="center" width="90%" border="0" cellspacing="0" cellpadding="5"> 
+<tr valign="bottom" bgcolor="#f0f0f0"> 
+<td nowrap>
+<a href="?show=#{@name}"><font size="+3">#{@name}</font></a>
+Ålder: <b>#{@age}</b>
+</td>
+<td align="right" valign="bottom" nowrap>
+<a href="?show=#{@name}+#{prev}">Föregående</a>,
+<a href="?show=#{@name}+#{next}">Nästa</a> |
+<a href="?restore=#{@name}+#{@age}">Återställ</a>,
+</td>
+</tr>
+
+<tr><td colspan=2>
+
+#{@text}
+
+</td></tr>
+
+<tr bgcolor="#f0f0f0">
+<td>
+<font size="-1">Sidan sparad: <b>#{@time}</b></font>
+</td>
+<td align="right" valign="bottom" nowrap>
+<a href="?show=#{@name}+#{prev}">Föregående</a>,
+<a href="?show=#{@name}+#{next}">Nästa</a> |
+<a href="?restore=#{@name}+#{age}">Återställ</a>,
+</td>
+</tr>
+</table>
+
+</body>
+</html>
